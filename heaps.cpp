@@ -62,6 +62,7 @@ public:
                 }
                 else if(rightIndex< size && arr[i]<arr[rightIndex]){
                     swap(arr[i],arr[rightIndex]);
+                    i=rightIndex;
                 }
                 else{
                     return;
